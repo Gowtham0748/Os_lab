@@ -1,0 +1,17 @@
+int main()
+{
+decl
+    int temp,num,odd;
+enddecl
+begin
+    num=1;
+    while ( num <= 100 ) do
+         if((num%2)!=0) then
+         odd = num;
+         temp = exposcall ( "Write" , -2, odd );
+         endif;
+         num = num + 1;
+    endwhile;
+    return 0;
+end
+}
