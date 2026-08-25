@@ -5,11 +5,11 @@ decl
 enddecl
 begin
     num=1;
+    odd=1;
     while ( num <= 100 ) do
-         if((num%2)!=0) then
-         odd = num;
-         temp = exposcall ( "Write" , -2, odd );
-         endif;
+         
+         temp = exposcall ( "Write" , -2, num );
+         
          num = num + 1;
     endwhile;
     return 0;
