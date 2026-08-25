@@ -1,0 +1,4 @@
+load --os $HOME/myexpos/spl/spl_progs/os_stage12.xsm
+load --init $HOME/myexpos/expl/samples/numbers.xsm
+load --idle $HOME/myexpos/expl/samples/idle.xsm
+exit
