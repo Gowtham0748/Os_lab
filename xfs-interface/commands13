@@ -1,0 +1,5 @@
+load --os $HOME/myexpos/spl/spl_progs/os_stage13.xsm
+load --module 7 $HOME/myexpos/spl/spl_progs/boot_module_stg13.xsm
+load --init $HOME/myexpos/expl/samples/numbers.xsm
+load --idle $HOME/myexpos/expl/samples/idle1.xsm
+exit
