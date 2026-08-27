@@ -1,0 +1,8 @@
+load --os $HOME/myexpos/spl/spl_progs/os_stage13.xsm
+load --module 7 $HOME/myexpos/spl/spl_progs/boot_module_stg14.xsm
+load --module 5 $HOME/myexpos/spl/spl_progs/module_5.xsm
+load --int=10 $HOME/myexpos/spl/spl_progs/exit_stg14.xsm
+load --int=timer $HOME/myexpos/spl/spl_progs/timer_stg14.xsm
+load --init $HOME/myexpos/expl/samples/odd.xsm
+load --idle $HOME/myexpos/expl/samples/idle.xsm
+exit 
