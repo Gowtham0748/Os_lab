@@ -1,0 +1,9 @@
+load --os $HOME/myexpos/spl/spl_progs/os_stage13.xsm
+load --module 7 $HOME/myexpos/spl/spl_progs/boot_module_stg15.xsm
+load --module 5 $HOME/myexpos/spl/spl_progs/module_5.xsm
+load --int=10 $HOME/myexpos/spl/spl_progs/exit_stg14.xsm
+load --int=timer $HOME/myexpos/spl/spl_progs/timer_stg14.xsm
+load --int=7 $HOME/myexpos/spl/spl_progs/write_stg15.xsm
+load --module 0 $HOME/myexpos/spl/spl_progs/resource_stg15.xsm
+load --module 4 $HOME/myexpos/spl/spl_progs/dev_mod4.xsm
+exit 
