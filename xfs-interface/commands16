@@ -1,0 +1,13 @@
+load --os $HOME/myexpos/spl/spl_progs/os_stage13.xsm
+load --module 7 $HOME/myexpos/spl/spl_progs/boot_module_stg16.xsm
+load --module 5 $HOME/myexpos/spl/spl_progs/module_5.xsm
+load --int=10 $HOME/myexpos/spl/spl_progs/exit_stg14.xsm
+load --int=timer $HOME/myexpos/spl/spl_progs/timer_stg14.xsm
+load --init $HOME/myexpos/expl/samples/gcd_stg16.xsm
+load --idle $HOME/myexpos/expl/samples/idle.xsm
+load --int=7 $HOME/myexpos/spl/spl_progs/write_int7.xsm
+load --module 4 $HOME/myexpos/spl/spl_progs/dev_mod4.xsm
+load --module 0 $HOME/myexpos/spl/spl_progs/resource_stg15.xsm
+load --int=6 $HOME/myexpos/spl/spl_progs/read_int6.xsm
+load --int=console $HOME/myexpos/spl/spl_progs/console_int_stg16.xsm
+exit
