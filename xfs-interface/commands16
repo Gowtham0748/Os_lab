@@ -3,7 +3,7 @@ load --module 7 $HOME/myexpos/spl/spl_progs/boot_module_stg16.xsm
 load --module 5 $HOME/myexpos/spl/spl_progs/module_5.xsm
 load --int=10 $HOME/myexpos/spl/spl_progs/exit_stg14.xsm
 load --int=timer $HOME/myexpos/spl/spl_progs/timer_stg14.xsm
-load --init $HOME/myexpos/expl/samples/gcd_stg16.xsm
+load --init $HOME/myexpos/expl/samples/bubble_sort.xsm
 load --idle $HOME/myexpos/expl/samples/idle.xsm
 load --int=7 $HOME/myexpos/spl/spl_progs/write_int7.xsm
 load --module 4 $HOME/myexpos/spl/spl_progs/dev_mod4.xsm

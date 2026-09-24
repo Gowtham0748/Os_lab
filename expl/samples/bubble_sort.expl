@@ -1,32 +1,39 @@
 decl
-	int bubbleSort(int a,int b);
+	int n,b;
+	int a[5];
+	int i,j,t;
+	str out;
 enddecl
 
-int gcd(int a,int b){
-	decl
-	  int temp;
-	enddecl
-	begin
-	if(a==0) then
-		temp=b;	
-	else
-		temp=gcd(b%a,a);
-	endif;
-	return temp;
-	end
-}
-
 int main(){
-	decl
-	  int temp,a,b,res;
-	enddecl
-	begin
-	temp=exposcall("Read",-1,a);
-	temp=exposcall("Read",-1,b);
-	breakpoint;
-	res=gcd(a,b);
-	temp=exposcall("Write",-2,res);
-	return 0;
-	end
 
+begin
+	n=5;
+	i=0;
+	while(i<n)do
+		b=exposcall("Read",-1,a[i]);
+		i=i+1;
+	endwhile;
+	i=0;
+	while(i<n) do
+	    j=i;
+	    while(j<n) do
+	      if(a[i]>a[j]) then
+		t = a[i];
+		a[i] = a[j];
+		a[j] = t;
+	      endif;
+	      j = j + 1;
+	    endwhile;
+    	   i = i+1;
+ 	 endwhile;
+ 	i=0;
+ 	out="Output:";
+ 	b=exposcall("Write",-2,out);
+	while(i<n)do
+		b=exposcall("Write",-2,a[i]);
+		i=i+1;
+	endwhile;
+	return 0;
+end	
 }
