@@ -1,0 +1,8 @@
+load --module 7 $HOME/myexpos/spl/spl_progs/boot_module_stg18.xsm
+load --init $HOME/myexpos/expl/samples/exec.xsm
+load --idle $HOME/myexpos/expl/samples/idle1.xsm
+load --int=9 $HOME/myexpos/spl/spl_progs/int9_stg18.xsm 
+load --module 0 $HOME/myexpos/spl/spl_progs/resource_stg18.xsm
+load --module 4 $HOME/myexpos/spl/spl_progs/device_manager_stg18.xsm
+load --int=disk $HOME/myexpos/spl/spl_progs/disk_int_stg18.xsm
+exit
